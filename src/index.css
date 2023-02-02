@@ -11,6 +11,6 @@ body {
 	@apply text-gray-400;
 }
 a,
-h2 {
+h1 {
 	@apply text-white;
 }

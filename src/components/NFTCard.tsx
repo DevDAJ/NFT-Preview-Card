@@ -6,7 +6,7 @@ export default function NFTCard() {
 				src='./image-equilibrium.jpg'
 				alt='Equilibrium #3429'
 			/>
-			<h2 className='font-semibold my-4'>Equilibrium #3429</h2>
+			<h1 className='font-semibold my-4'>Equilibrium #3429</h1>
 			<p className='font-light my-2'>
 				Our Equilibrium collection promotes balance and calm.
 			</p>
@@ -21,6 +21,7 @@ export default function NFTCard() {
 				<img
 					src='./image-avatar.png'
 					className='h-7 border rounded-full mr- 2'
+					alt='Creator Avatar'
 				/>
 				<span>Creation of</span>
 				<a href='#'>Jules Wyvern</a>
@@ -40,7 +41,7 @@ function IconInfo({
 }) {
 	return (
 		<span className={`align-middle ${color} font-semibold`}>
-			<img src={icon} className='inline-block h-4 align-top pr-1' />
+			<img src={icon} className='inline-block h-4 align-top pr-1' alt={icon} />
 			{children}
 		</span>
 	);
