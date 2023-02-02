@@ -1,0 +1,16 @@
+@import 'https://fonts.google.com/specimen/Outfit';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@fontface {
+	font-family: 'Outfit';
+	font-style: normal;
+	font-weight: 300, 400, 600;
+}
+body {
+	@apply text-gray-400;
+}
+a,
+h2 {
+	@apply text-white;
+}
